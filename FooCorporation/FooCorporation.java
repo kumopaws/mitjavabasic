@@ -1,5 +1,3 @@
-package assignment;
-
 public class FooCorporation {
 	public static void payment(double basePay, int hours) {
 		double salary = 0;
