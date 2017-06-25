@@ -1,5 +1,3 @@
-package assignment;
-
 class GravityCalculator {
 	public static void main(final String[] arguments) {
 		final double gravity = -9.81; // Earth's gravity in m/s^2
