@@ -12,16 +12,27 @@ public class Marathon {
 
 		int secondBest = times[0];
 		int secondBestID = 0;
+		
+		//getting the best result 
 		for (int i = 0; i < names.length; i++) {
 			if (bestValue > times[i]) {
-				bestValue = times[i];
+				//if bestValue is better then value, then save it 
+				//as the new BestValue
+				bestValue = times[i]; 
+				//get and save the id of the best value
+				//to parse it latter
 				bestValueID = i;
 			}
 		}
 
+		//getting the second best result 
+		//same as above
 		for (int i = 0; i < names.length; i++) {
+			//if i is equals the bestResult than skip it 
+			//so we wont get it values to second best result
 			if (i == bestValueID) {
 				continue;
+			//same as best result
 			} else if (secondBest > times[i]) {
 				secondBest = times[i];
 				secondBestID = i;
