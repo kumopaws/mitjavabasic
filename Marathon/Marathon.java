@@ -5,10 +5,10 @@ public class Marathon {
 				"Jane", "Emily", "Daniel", "Neda", "Aaron", "Kate" };
 		int[] times = { 341, 273, 278, 329, 445, 402, 388, 275, 243, 334, 412, 393, 299, 343, 317, 265 };
 
-		int bestValue = times[0];
+		int bestValue = Integer.MAX_VALUE; // the max value of this type of variable 
 		int bestValueID = 0;
 
-		int secondBest = times[0];
+		int secondBest = Integer.MAX_VALUE; // the max value of this type of variable 
 		int secondBestID = 0;
 		
 		//getting the best result 
